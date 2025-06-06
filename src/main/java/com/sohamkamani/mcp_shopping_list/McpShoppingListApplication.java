@@ -15,7 +15,7 @@ public class McpShoppingListApplication {
 	}
 
 	@Bean
-	public List<ToolCallback> danTools(ShoppingCart shoppingCart) {
+	public List<ToolCallback> tools(ShoppingCart shoppingCart) {
 		return List.of(ToolCallbacks.from(shoppingCart));
 	}
 
